@@ -10,45 +10,40 @@ import SwiftUI
 struct ContentView: View {
     @State private var inputText = "" // This will hold the text input from the user
     
-    // Define the gradient for the search bar background
-    let gradient = LinearGradient(gradient: Gradient(colors: [Color.purple, Color.blue]), startPoint: .leading, endPoint: .trailing)
-
     var body: some View {
         VStack {
             // The search bar container
             ZStack {
-                // Apply the gradient background
-                RoundedRectangle(cornerRadius: 20)
-                    .fill(gradient)
+                // Apply a visual effect for the blur
+                BlurView(material: .hudWindow, blendingMode: .behindWindow, state: .active) // Choose the appropriate style for your needs
                     .frame(height: 60)
-                    .padding()
+                    .cornerRadius(20)
+                    .frame(maxWidth: .infinity)
 
                 // Horizontal stack for the text field and button
                 HStack {
                     // The text field
                     TextField("Start typing...", text: $inputText)
-                        .textFieldStyle(PlainTextFieldStyle()) // Removes the default text field styling
-                        .padding([.leading, .trailing], 35.0) // Padding on the sides of the text field
-                        .frame(height: 40) // Fixed height for the text field
-                        .background(Color(red: 1.0, green: 0.0, blue: 0.0, opacity: 0.001)) // Slightly transparent white background
-                        .cornerRadius(10) // Rounded corners for the text field
-
-                    // The button with an icon
-                    Button(action: {
-                        // Action to perform when the button is tapped.
-                        // We'll later use this to call the translation API
-                        print("Translate button was tapped")
-                    }) {
-                        Image(systemName: "magnifyingglass") // System icon for the magnifying glass
-                            .foregroundColor(.white) // White color for the icon
-                    }
-                    .padding(.trailing, 20) // Padding on the right side of the button
+                        .textFieldStyle(PlainTextFieldStyle())
+                        .foregroundColor(.white)
+                        .font(Font.system(size: 18, weight: .thin, design: .rounded))
+                        .padding([.leading, .trailing], 30) // Padding on the sides of the text field
+                        .frame(height: 30) // Fixed height for the text field
+                    
+                    Spacer() // Pushes the icon to the right
+                    
+                    // The icon (non-clickable)
+                    Image(systemName: "magnifyingglass") // Make sure "ps-icon.png" is in your asset catalog
+                        .resizable() // Allow the image to be resized
+                        .aspectRatio(contentMode: .fit) // Keep the aspect ratio of the image
+                        .frame(height: 20) // Set the height of the image
+                        .padding(.trailing, 20) // Padding on the right side of the icon
                 }
             }
         }
         .frame(width: 700, height: 40) // Set the frame to the desired size for your text input
-        .background(Color.black.opacity(0.05)) // Light background color for the whole view
-        .padding(20)
+        .background(Color.black.opacity(0.0)) // Light background color for the whole view
+        .padding(15)
     }
 }
 

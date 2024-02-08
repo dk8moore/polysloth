@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		212F27592B75732D00E57499 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212F27582B75732D00E57499 /* BlurView.swift */; };
 		21C699072B7265D5008A4376 /* polyslothApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C699062B7265D5008A4376 /* polyslothApp.swift */; };
 		21C699092B7265D5008A4376 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C699082B7265D5008A4376 /* ContentView.swift */; };
 		21C6990B2B7265D6008A4376 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21C6990A2B7265D6008A4376 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		212F27582B75732D00E57499 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		21C699032B7265D5008A4376 /* polysloth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = polysloth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21C699062B7265D5008A4376 /* polyslothApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = polyslothApp.swift; sourceTree = "<group>"; };
 		21C699082B7265D5008A4376 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				21C699352B73FF10008A4376 /* AppDelegate.swift */,
 				21C699372B7411D2008A4376 /* MainApplication.swift */,
 				21C699392B7411F9008A4376 /* main.swift */,
+				212F27582B75732D00E57499 /* BlurView.swift */,
 			);
 			path = polysloth;
 			sourceTree = "<group>";
@@ -160,6 +163,8 @@
 			dependencies = (
 			);
 			name = polysloth;
+			packageProductDependencies = (
+			);
 			productName = polysloth;
 			productReference = 21C699032B7265D5008A4376 /* polysloth.app */;
 			productType = "com.apple.product-type.application";
@@ -232,6 +237,8 @@
 				Base,
 			);
 			mainGroup = 21C698FA2B7265D5008A4376;
+			packageReferences = (
+			);
 			productRefGroup = 21C699042B7265D5008A4376 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -276,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21C699092B7265D5008A4376 /* ContentView.swift in Sources */,
+				212F27592B75732D00E57499 /* BlurView.swift in Sources */,
 				21C699072B7265D5008A4376 /* polyslothApp.swift in Sources */,
 				21C6993A2B7411F9008A4376 /* main.swift in Sources */,
 				21C699362B73FF10008A4376 /* AppDelegate.swift in Sources */,
