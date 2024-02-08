@@ -1,1 +1,1 @@
-### Polysloth
+### Polysloth - macOS app
