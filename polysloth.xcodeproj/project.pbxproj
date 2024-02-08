@@ -14,6 +14,10 @@
 		21C699192B7265D6008A4376 /* polyslothTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C699182B7265D6008A4376 /* polyslothTests.swift */; };
 		21C699232B7265D6008A4376 /* polyslothUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C699222B7265D6008A4376 /* polyslothUITests.swift */; };
 		21C699252B7265D6008A4376 /* polyslothUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C699242B7265D6008A4376 /* polyslothUITestsLaunchTests.swift */; };
+		21C699342B73FEE7008A4376 /* RoundedWindows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C699332B73FEE7008A4376 /* RoundedWindows.swift */; };
+		21C699362B73FF10008A4376 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C699352B73FF10008A4376 /* AppDelegate.swift */; };
+		21C699382B7411D2008A4376 /* MainApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C699372B7411D2008A4376 /* MainApplication.swift */; };
+		21C6993A2B7411F9008A4376 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C699392B7411F9008A4376 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		21C6991E2B7265D6008A4376 /* polyslothUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = polyslothUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21C699222B7265D6008A4376 /* polyslothUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = polyslothUITests.swift; sourceTree = "<group>"; };
 		21C699242B7265D6008A4376 /* polyslothUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = polyslothUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		21C699332B73FEE7008A4376 /* RoundedWindows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedWindows.swift; sourceTree = "<group>"; };
+		21C699352B73FF10008A4376 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21C699372B7411D2008A4376 /* MainApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainApplication.swift; sourceTree = "<group>"; };
+		21C699392B7411F9008A4376 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,10 @@
 				21C6990A2B7265D6008A4376 /* Assets.xcassets */,
 				21C6990F2B7265D6008A4376 /* polysloth.entitlements */,
 				21C6990C2B7265D6008A4376 /* Preview Content */,
+				21C699332B73FEE7008A4376 /* RoundedWindows.swift */,
+				21C699352B73FF10008A4376 /* AppDelegate.swift */,
+				21C699372B7411D2008A4376 /* MainApplication.swift */,
+				21C699392B7411F9008A4376 /* main.swift */,
 			);
 			path = polysloth;
 			sourceTree = "<group>";
@@ -261,6 +273,10 @@
 			files = (
 				21C699092B7265D5008A4376 /* ContentView.swift in Sources */,
 				21C699072B7265D5008A4376 /* polyslothApp.swift in Sources */,
+				21C6993A2B7411F9008A4376 /* main.swift in Sources */,
+				21C699362B73FF10008A4376 /* AppDelegate.swift in Sources */,
+				21C699382B7411D2008A4376 /* MainApplication.swift in Sources */,
+				21C699342B73FEE7008A4376 /* RoundedWindows.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
