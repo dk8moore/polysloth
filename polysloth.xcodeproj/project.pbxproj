@@ -41,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		212F27582B75732D00E57499 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		218772732B769DCF007A1D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		21C699032B7265D5008A4376 /* polysloth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = polysloth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21C699062B7265D5008A4376 /* polyslothApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = polyslothApp.swift; sourceTree = "<group>"; };
 		21C699082B7265D5008A4376 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -108,6 +109,7 @@
 		21C699052B7265D5008A4376 /* polysloth */ = {
 			isa = PBXGroup;
 			children = (
+				218772732B769DCF007A1D6B /* Info.plist */,
 				21C699062B7265D5008A4376 /* polyslothApp.swift */,
 				21C699082B7265D5008A4376 /* ContentView.swift */,
 				21C6990A2B7265D6008A4376 /* Assets.xcassets */,
@@ -457,6 +459,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = polysloth/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -484,6 +488,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = polysloth/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
