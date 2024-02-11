@@ -29,6 +29,7 @@ struct ContentView: View {
                         .font(Font.system(size: 18, weight: .thin, design: .rounded))
                         .padding([.leading, .trailing], 30) // Padding on the sides of the text field
                         .frame(height: 30) // Fixed height for the text field
+                        .tint(.black)
                     
                     Spacer() // Pushes the icon to the right
                     

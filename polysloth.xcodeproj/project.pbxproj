@@ -8,18 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		212F27592B75732D00E57499 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212F27582B75732D00E57499 /* BlurView.swift */; };
-		21C699072B7265D5008A4376 /* polyslothApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C699062B7265D5008A4376 /* polyslothApp.swift */; };
+		218772812B78DF44007A1D6B /* RoundedWindows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218772802B78D055007A1D6B /* RoundedWindows.swift */; };
+		218772842B78E346007A1D6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218772832B78E346007A1D6B /* AppDelegate.swift */; };
+		218772862B78E36B007A1D6B /* WindowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218772852B78E36B007A1D6B /* WindowManager.swift */; };
+		218772882B78E3AB007A1D6B /* EventManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218772872B78E3AB007A1D6B /* EventManager.swift */; };
+		2187728A2B78E3C0007A1D6B /* AccessibilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218772892B78E3C0007A1D6B /* AccessibilityManager.swift */; };
 		21C699092B7265D5008A4376 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C699082B7265D5008A4376 /* ContentView.swift */; };
 		21C6990B2B7265D6008A4376 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21C6990A2B7265D6008A4376 /* Assets.xcassets */; };
 		21C6990E2B7265D6008A4376 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21C6990D2B7265D6008A4376 /* Preview Assets.xcassets */; };
 		21C699192B7265D6008A4376 /* polyslothTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C699182B7265D6008A4376 /* polyslothTests.swift */; };
 		21C699232B7265D6008A4376 /* polyslothUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C699222B7265D6008A4376 /* polyslothUITests.swift */; };
 		21C699252B7265D6008A4376 /* polyslothUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C699242B7265D6008A4376 /* polyslothUITestsLaunchTests.swift */; };
-		21C699342B73FEE7008A4376 /* RoundedWindows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C699332B73FEE7008A4376 /* RoundedWindows.swift */; };
-		21C699362B73FF10008A4376 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C699352B73FF10008A4376 /* AppDelegate.swift */; };
 		21C699382B7411D2008A4376 /* MainApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C699372B7411D2008A4376 /* MainApplication.swift */; };
 		21C6993A2B7411F9008A4376 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C699392B7411F9008A4376 /* main.swift */; };
-		21C904B72B75554400F3F380 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 21C904B62B75554400F3F380 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +42,13 @@
 
 /* Begin PBXFileReference section */
 		212F27582B75732D00E57499 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
-		218772732B769DCF007A1D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		218772732B769DCF007A1D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		218772802B78D055007A1D6B /* RoundedWindows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedWindows.swift; sourceTree = "<group>"; };
+		218772832B78E346007A1D6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		218772852B78E36B007A1D6B /* WindowManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowManager.swift; sourceTree = "<group>"; };
+		218772872B78E3AB007A1D6B /* EventManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventManager.swift; sourceTree = "<group>"; };
+		218772892B78E3C0007A1D6B /* AccessibilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityManager.swift; sourceTree = "<group>"; };
 		21C699032B7265D5008A4376 /* polysloth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = polysloth.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		21C699062B7265D5008A4376 /* polyslothApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = polyslothApp.swift; sourceTree = "<group>"; };
 		21C699082B7265D5008A4376 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		21C6990A2B7265D6008A4376 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21C6990D2B7265D6008A4376 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -53,8 +58,6 @@
 		21C6991E2B7265D6008A4376 /* polyslothUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = polyslothUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21C699222B7265D6008A4376 /* polyslothUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = polyslothUITests.swift; sourceTree = "<group>"; };
 		21C699242B7265D6008A4376 /* polyslothUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = polyslothUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		21C699332B73FEE7008A4376 /* RoundedWindows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedWindows.swift; sourceTree = "<group>"; };
-		21C699352B73FF10008A4376 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21C699372B7411D2008A4376 /* MainApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainApplication.swift; sourceTree = "<group>"; };
 		21C699392B7411F9008A4376 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		21C904B62B75554400F3F380 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -85,13 +88,89 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		218772792B78CFD4007A1D6B /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				21C6990C2B7265D6008A4376 /* Preview Content */,
+				21C6990A2B7265D6008A4376 /* Assets.xcassets */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		2187727A2B78CFE3007A1D6B /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				2187727B2B78CFE7007A1D6B /* views */,
+				2187727C2B78CFE9007A1D6B /* windows */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		2187727B2B78CFE7007A1D6B /* views */ = {
+			isa = PBXGroup;
+			children = (
+				21C699082B7265D5008A4376 /* ContentView.swift */,
+				212F27582B75732D00E57499 /* BlurView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		2187727C2B78CFE9007A1D6B /* windows */ = {
+			isa = PBXGroup;
+			children = (
+				218772802B78D055007A1D6B /* RoundedWindows.swift */,
+			);
+			path = windows;
+			sourceTree = "<group>";
+		};
+		2187727D2B78CFEC007A1D6B /* core */ = {
+			isa = PBXGroup;
+			children = (
+				2187728B2B78E64A007A1D6B /* managers */,
+				21C699392B7411F9008A4376 /* main.swift */,
+				218772832B78E346007A1D6B /* AppDelegate.swift */,
+				21C699372B7411D2008A4376 /* MainApplication.swift */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		2187727E2B78CFEF007A1D6B /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		2187727F2B78D019007A1D6B /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				21C699172B7265D6008A4376 /* polyslothTests */,
+				21C699212B7265D6008A4376 /* polyslothUITests */,
+			);
+			path = tests;
+			sourceTree = "<group>";
+		};
+		2187728B2B78E64A007A1D6B /* managers */ = {
+			isa = PBXGroup;
+			children = (
+				218772892B78E3C0007A1D6B /* AccessibilityManager.swift */,
+				218772872B78E3AB007A1D6B /* EventManager.swift */,
+				218772852B78E36B007A1D6B /* WindowManager.swift */,
+			);
+			path = managers;
+			sourceTree = "<group>";
+		};
 		21C698FA2B7265D5008A4376 = {
 			isa = PBXGroup;
 			children = (
+				218772732B769DCF007A1D6B /* Info.plist */,
+				21C6990F2B7265D6008A4376 /* polysloth.entitlements */,
+				218772792B78CFD4007A1D6B /* resources */,
+				2187727A2B78CFE3007A1D6B /* ui */,
+				2187727D2B78CFEC007A1D6B /* core */,
+				2187727E2B78CFEF007A1D6B /* helpers */,
+				2187727F2B78D019007A1D6B /* tests */,
 				21C904B62B75554400F3F380 /* README.md */,
-				21C699052B7265D5008A4376 /* polysloth */,
-				21C699172B7265D6008A4376 /* polyslothTests */,
-				21C699212B7265D6008A4376 /* polyslothUITests */,
 				21C699042B7265D5008A4376 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,24 +183,6 @@
 				21C6991E2B7265D6008A4376 /* polyslothUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		21C699052B7265D5008A4376 /* polysloth */ = {
-			isa = PBXGroup;
-			children = (
-				218772732B769DCF007A1D6B /* Info.plist */,
-				21C699062B7265D5008A4376 /* polyslothApp.swift */,
-				21C699082B7265D5008A4376 /* ContentView.swift */,
-				21C6990A2B7265D6008A4376 /* Assets.xcassets */,
-				21C6990F2B7265D6008A4376 /* polysloth.entitlements */,
-				21C6990C2B7265D6008A4376 /* Preview Content */,
-				21C699332B73FEE7008A4376 /* RoundedWindows.swift */,
-				21C699352B73FF10008A4376 /* AppDelegate.swift */,
-				21C699372B7411D2008A4376 /* MainApplication.swift */,
-				21C699392B7411F9008A4376 /* main.swift */,
-				212F27582B75732D00E57499 /* BlurView.swift */,
-			);
-			path = polysloth;
 			sourceTree = "<group>";
 		};
 		21C6990C2B7265D6008A4376 /* Preview Content */ = {
@@ -258,7 +319,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				21C6990E2B7265D6008A4376 /* Preview Assets.xcassets in Resources */,
-				21C904B72B75554400F3F380 /* README.md in Resources */,
 				21C6990B2B7265D6008A4376 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,13 +344,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				218772882B78E3AB007A1D6B /* EventManager.swift in Sources */,
 				21C699092B7265D5008A4376 /* ContentView.swift in Sources */,
+				218772862B78E36B007A1D6B /* WindowManager.swift in Sources */,
 				212F27592B75732D00E57499 /* BlurView.swift in Sources */,
-				21C699072B7265D5008A4376 /* polyslothApp.swift in Sources */,
+				2187728A2B78E3C0007A1D6B /* AccessibilityManager.swift in Sources */,
 				21C6993A2B7411F9008A4376 /* main.swift in Sources */,
-				21C699362B73FF10008A4376 /* AppDelegate.swift in Sources */,
+				218772812B78DF44007A1D6B /* RoundedWindows.swift in Sources */,
+				218772842B78E346007A1D6B /* AppDelegate.swift in Sources */,
 				21C699382B7411D2008A4376 /* MainApplication.swift in Sources */,
-				21C699342B73FEE7008A4376 /* RoundedWindows.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,16 +512,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = polysloth/polysloth.entitlements;
+				CODE_SIGN_ENTITLEMENTS = polysloth.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"polysloth/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 4QL6866VKM;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = polysloth/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -479,16 +542,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = polysloth/polysloth.entitlements;
+				CODE_SIGN_ENTITLEMENTS = polysloth.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"polysloth/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 4QL6866VKM;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = polysloth/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
