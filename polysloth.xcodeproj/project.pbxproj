@@ -13,7 +13,7 @@
 		218772862B78E36B007A1D6B /* WindowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218772852B78E36B007A1D6B /* WindowManager.swift */; };
 		218772882B78E3AB007A1D6B /* EventManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218772872B78E3AB007A1D6B /* EventManager.swift */; };
 		2187728A2B78E3C0007A1D6B /* AccessibilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218772892B78E3C0007A1D6B /* AccessibilityManager.swift */; };
-		21C699092B7265D5008A4376 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C699082B7265D5008A4376 /* ContentView.swift */; };
+		2187728C2B78FCF6007A1D6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C699082B7265D5008A4376 /* ContentView.swift */; };
 		21C6990B2B7265D6008A4376 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21C6990A2B7265D6008A4376 /* Assets.xcassets */; };
 		21C6990E2B7265D6008A4376 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21C6990D2B7265D6008A4376 /* Preview Assets.xcassets */; };
 		21C699192B7265D6008A4376 /* polyslothTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C699182B7265D6008A4376 /* polyslothTests.swift */; };
@@ -49,7 +49,7 @@
 		218772872B78E3AB007A1D6B /* EventManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventManager.swift; sourceTree = "<group>"; };
 		218772892B78E3C0007A1D6B /* AccessibilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityManager.swift; sourceTree = "<group>"; };
 		21C699032B7265D5008A4376 /* polysloth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = polysloth.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		21C699082B7265D5008A4376 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		21C699082B7265D5008A4376 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ui/views/ContentView.swift; sourceTree = SOURCE_ROOT; };
 		21C6990A2B7265D6008A4376 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21C6990D2B7265D6008A4376 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		21C6990F2B7265D6008A4376 /* polysloth.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = polysloth.entitlements; sourceTree = "<group>"; };
@@ -345,11 +345,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				218772882B78E3AB007A1D6B /* EventManager.swift in Sources */,
-				21C699092B7265D5008A4376 /* ContentView.swift in Sources */,
 				218772862B78E36B007A1D6B /* WindowManager.swift in Sources */,
 				212F27592B75732D00E57499 /* BlurView.swift in Sources */,
 				2187728A2B78E3C0007A1D6B /* AccessibilityManager.swift in Sources */,
 				21C6993A2B7411F9008A4376 /* main.swift in Sources */,
+				2187728C2B78FCF6007A1D6B /* ContentView.swift in Sources */,
 				218772812B78DF44007A1D6B /* RoundedWindows.swift in Sources */,
 				218772842B78E346007A1D6B /* AppDelegate.swift in Sources */,
 				21C699382B7411D2008A4376 /* MainApplication.swift in Sources */,
