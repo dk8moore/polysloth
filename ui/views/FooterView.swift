@@ -18,13 +18,13 @@ struct FooterView<Background: View>: View {
             backgroundView
             BottomMenuView(
                 leftItems: [
-                    ("1.circle", "Translation"),
-                    ("2.circle", "Definition"),
-                    ("3.circle", "Rhymes")
+                    ("1.square.fill", "Translation"),
+                    ("2.square.fill", "Definition"),
+                    ("3.square.fill", "Rhymes")
                 ],
                 rightItems: [
-                    ("arrow.clockwise.circle", "History"),
-                    ("magnifyingglass", "Search")
+                    ("arrow.down", "History"),
+                    ("return", "Search")
                 ]
             )
         }
