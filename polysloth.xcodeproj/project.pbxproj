@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21042D622B9374F700C851A8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21042D612B9374F700C851A8 /* Constants.swift */; };
+		21042D642B9377FF00C851A8 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21042D632B9377FF00C851A8 /* HeaderView.swift */; };
+		21042D662B93780C00C851A8 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21042D652B93780C00C851A8 /* FooterView.swift */; };
+		21042D682B93781500C851A8 /* BodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21042D672B93781500C851A8 /* BodyView.swift */; };
+		212D5ABD2B7D630000292A2A /* DictionaryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212D5ABC2B7D630000292A2A /* DictionaryManager.swift */; };
 		212F27592B75732D00E57499 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212F27582B75732D00E57499 /* BlurView.swift */; };
 		218772812B78DF44007A1D6B /* RoundedWindows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218772802B78D055007A1D6B /* RoundedWindows.swift */; };
 		218772842B78E346007A1D6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218772832B78E346007A1D6B /* AppDelegate.swift */; };
@@ -41,6 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21042D612B9374F700C851A8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		21042D632B9377FF00C851A8 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		21042D652B93780C00C851A8 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		21042D672B93781500C851A8 /* BodyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyView.swift; sourceTree = "<group>"; };
+		212D5ABC2B7D630000292A2A /* DictionaryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryManager.swift; sourceTree = "<group>"; };
 		212F27582B75732D00E57499 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		218772732B769DCF007A1D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		218772802B78D055007A1D6B /* RoundedWindows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedWindows.swift; sourceTree = "<group>"; };
@@ -111,6 +121,9 @@
 			children = (
 				21C699082B7265D5008A4376 /* ContentView.swift */,
 				212F27582B75732D00E57499 /* BlurView.swift */,
+				21042D632B9377FF00C851A8 /* HeaderView.swift */,
+				21042D652B93780C00C851A8 /* FooterView.swift */,
+				21042D672B93781500C851A8 /* BodyView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -130,6 +143,7 @@
 				21C699392B7411F9008A4376 /* main.swift */,
 				218772832B78E346007A1D6B /* AppDelegate.swift */,
 				21C699372B7411D2008A4376 /* MainApplication.swift */,
+				21042D612B9374F700C851A8 /* Constants.swift */,
 			);
 			path = core;
 			sourceTree = "<group>";
@@ -156,6 +170,7 @@
 				218772892B78E3C0007A1D6B /* AccessibilityManager.swift */,
 				218772872B78E3AB007A1D6B /* EventManager.swift */,
 				218772852B78E36B007A1D6B /* WindowManager.swift */,
+				212D5ABC2B7D630000292A2A /* DictionaryManager.swift */,
 			);
 			path = managers;
 			sourceTree = "<group>";
@@ -345,13 +360,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				218772882B78E3AB007A1D6B /* EventManager.swift in Sources */,
+				21042D622B9374F700C851A8 /* Constants.swift in Sources */,
 				218772862B78E36B007A1D6B /* WindowManager.swift in Sources */,
 				212F27592B75732D00E57499 /* BlurView.swift in Sources */,
 				2187728A2B78E3C0007A1D6B /* AccessibilityManager.swift in Sources */,
 				21C6993A2B7411F9008A4376 /* main.swift in Sources */,
+				21042D682B93781500C851A8 /* BodyView.swift in Sources */,
+				212D5ABD2B7D630000292A2A /* DictionaryManager.swift in Sources */,
+				21042D642B9377FF00C851A8 /* HeaderView.swift in Sources */,
 				2187728C2B78FCF6007A1D6B /* ContentView.swift in Sources */,
 				218772812B78DF44007A1D6B /* RoundedWindows.swift in Sources */,
 				218772842B78E346007A1D6B /* AppDelegate.swift in Sources */,
+				21042D662B93780C00C851A8 /* FooterView.swift in Sources */,
 				21C699382B7411D2008A4376 /* MainApplication.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
